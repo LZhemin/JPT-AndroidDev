@@ -69,3 +69,5 @@ fastlane/readme.md
 .DS_Store
 
 example.keystore
+
+*.pptx
