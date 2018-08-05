@@ -1,5 +1,5 @@
 # JPT-AndroidDev
-Repository for my basic Android 1 hour workshop given to the Development team at
+Repository for my basic 1 hour Android workshop given to the Development team at
 [Jewel Paymentech](https://github.com/jptd) during Summer 2018
 
 Agenda
@@ -8,16 +8,16 @@ Workshop Sides can be found [here](Android%20Development%20Tutorial%20(Basics).p
 
 Agenda as follows:
 - Compiled vs Interpreted Languages.
-  * Serve as a good refresher since the main language used is Python.
+  * Serve as a good refresher since the main language used by the team is Python.
 - Communications between Activities
-  * How to transit and transfer data structures between activities.
+  * How to transit and transfer data between activities.
 - Activity Interoperability
   * No Application is fun on it's own without any interaction with other systems.
   
 After the last 2 agenda, you should be able to build basic android applications with multiple 
-activities capable to pulling information online.
+activities capable of pulling information online.
 
-Dev Setup
+Devlopment Setup
 ---------
 ### Prerequisites
 
