@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Tutorial</string>
+    <string name="input_prompt">Enter Message Here</string>
+    <string name="submit_btn">Submit</string>
+    <string name="pull_btn">Pull</string>
+    <string name="serverURL">https://reqres.in/api/users/2</string>
 </resources>

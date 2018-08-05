@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content" android:orientation="horizontal"
-    android:layout_width="fill_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/message"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_width="fill_parent"
-        android:hint="Enter Message here">
-    </EditText>
+        android:orientation="vertical">
 
-    <Button android:text="Send Msg"
-        android:id="@+id/submit"
-        android:onClick="onScan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </Button>
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_prompt"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="onSubmit"
+            android:text="@string/submit_btn" />
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="onRequest"
+            android:text="@string/pull_btn" />
+
+    </LinearLayout>
 
 </LinearLayout>
